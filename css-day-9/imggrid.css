@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    width:100%;
+    background-color: #eaece5;
+    display: grid;
+    gap: 5px;
+    /* padding: 5px; */
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+.container > .card img{
+    width: 150px;
+    height: 150px;
+}
