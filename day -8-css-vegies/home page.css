@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.topbar{
+    
+    display: flex;
+    background-color: #00AB55;
+    color: white;
+    font-size: 1.5em;
+    justify-content: space-between;
+    height: 7vh;
+    
+}
+.topbar p{
+    margin: 0.7em 1em;
+}
+.topbar2{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 0.7em 1em;
+    cursor: pointer;
+}
+.twobar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00AB55;
+}
+.logo{
+    display: flex;
+    margin: 2em 3em;
+    gap: 10px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+.logo h2{
+    color: white;
+    font-size: 8vh;
+}
+#twobar3{
+    height: 10vh;
+    width: 70vw;
+    padding: 20px;
+    border-radius: 50%;
+}
+.twobar2{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 5em;
+}
+.twobar2 input{
+    border: none;
+    outline: none;
+    height: 8vh;
+    width: 40em;
+    font-size: 1.2em;
+
+}
+.twobar2 input::placeholder{
+    font-size: 1.2em;
+}
+
+.twobar2 select{
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 8vh;
+    font-size: 20px;
+}
+.twobar2 img{
+    width: 10%;
+    height: 8vh;
+    background-color: white;
+}
+.twobar2 img:hover{
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.container img{
+    width:4em;
+    height: 4em;
+    margin: 3em 3em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.8em;
+    background-color: #00AB55;
+    height: 5vh;
+    padding: 20px;
+
+}
+.navlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3em;
+    font-size: 2em;
+}
+.navlink a,.nav1{
+    text-decoration: none;
+    color: white;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+    background: linear-gradient(to right, #F8F8F8,white);
+
+}
+.sec2img img{
+    width:50vw;
+    background-color: transparent;
+}
+.sec2con p{
+    font-size: 1.5em;
+    color: rgb(171, 13, 13);
+}
+.sec2con h1{
+    font-size: 3.5em;
+}
+.sec2con span{
+    color: #00AB55;
+}
+.sec2con h3{
+    font-size: 1.5em;
+}
+.sec2con h3 + h3{
+    margin-top: 3em;
+    background-color: #FFB240;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+}
+.sec2con h3 + h3:hover{
+    background-color: #e8a239;
+}
+.sec3{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+
